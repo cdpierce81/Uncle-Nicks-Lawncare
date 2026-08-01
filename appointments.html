@@ -1,0 +1,120 @@
+<!-- IT 270 Final Project -->
+<!-- Chemeka D. Pierce -->
+<!-- Due December 20, 2020 -->
+<!-- https://cdp1.000webhostapp.com/ -->
+
+<!DOCTYPE html>
+<html lang = "en-US">
+	<head>
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+		<title>IT 270 Final Project</title>
+		<link rel = "stylesheet" type = "text/css" href = "index.css">
+		<link rel="stylesheet" href="appts.css">
+	</head>
+	<body>
+		<header class="site-header">
+			<h1>Uncle Nick's Lawncare Service</h1>
+		</header>
+		<div class="nav">
+			<nav>
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="about.html">About</a>
+					</li>
+					<li>
+						<a href="services.html">Services</a>
+					</li>
+					<li>
+						<a class="active" href="appointments.html">Appointments</a>
+					</li>
+					<li>
+						<a href="contact.html">Contact Us</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<div class="site-title">			
+			<h4>Schedule Your Appointment Today!!</h4>
+		</div>
+
+		<div class="form">
+			<form action="schedule.html" method="post">
+				<div id="cust">
+					<input type="text" placeholder=" Enter Name" name="name" required>
+					<input type="text" placeholder="Enter Address" name="address" required>
+					<input type="number" placeholder="Phone Number" name="phone" required>
+					<input type="text" placeholder="Enter Email" name="email" required>
+				</div>
+
+				<!-- Selections -->
+				<div id="day">
+					<p>Date:</p>
+					<select name="date">
+						<option>Select Date:</option>
+						<option label="Sunday" name="Sunday" value="Sunday">Sunday</option>
+						<option label="Monday" name="Monday" value="Monday">Monday</option>
+						<option label="Tuesday" name="Tuesday" value="Tuesday">Tuesday</option>
+						<option label="Wednesday" name="Wednesday" value="Wednesday">Wednesday</option>
+						<option label="Thursday" name="Thursday" value="Thursday">Thursday</option>
+						<option label="Friday" name="Friday" value="Friday">Friday</option>
+						<option label="Saturday" name="Saturday" value="Saturday">Saturday</option>
+					</select>
+				</div>
+				<br>
+				<div id="service">
+					<table>
+						<thead>
+							<tr>
+								<td>Services:</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><p><input type="checkbox" name="Mow"> Mow</p></td>
+								<td><p><input type="checkbox" name="Aeration"> Aeration</p></td>
+								<td><p><input type="checkbox" name="Shrubs"> Shrubs</p></td>
+							</tr>
+							<tr>
+								<td><p><input type="checkbox" name="Flowers"> Flowers</p></td>
+								<td><p><input type="checkbox" name="Plants"> Plants</p></td>
+								<td><p><input type="checkbox" name="Weed"> Weed</p></td>
+							</tr>
+							<tr>
+								<td><p><input type="checkbox" name="Landscaping"> Landscaping</p></td>
+								<td><p><input type="checkbox" name="Tree Chop"> Tree Chopping</p></td>
+								<td><p><input type="checkbox" name="Tree Limb Cut"> Tree Limb Cutting</p></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<!--<div id="service">
+					<p>Services:</p>
+					<p><input type="checkbox" name="Mow"> Mow</p>
+					<p><input type="checkbox" name="Aeration"> Aeration</p>
+					<p><input type="checkbox" name="Shrubs"> Shrubs</p>
+					<p><input type="checkbox" name="Flowers"> Flowers</p>
+					<p><input type="checkbox" name="Plants"> Plants</p>
+					<p><input type="checkbox" name="Weed"> Weed</p>
+					<p><input type="checkbox" name="Landscaping"> Landscaping</p>
+					<p><input type="checkbox" name="Tree Chop"> Tree Chopping</p>
+					<p><input type="checkbox" name="Tree Limb Cut"> Tree Limb Cutting</p>
+				</div>-->
+				<br>
+				<div id="button">
+					<button class="button">Submit</button>
+				</div>
+				<br>
+			</form>
+		</div>
+		<br>
+		<footer class="site-footer">
+			<p>&copy Uncle Nick's</p>
+		</footer>
+	
+	</body>
+</html>
+

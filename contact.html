@@ -1,0 +1,92 @@
+<!-- IT 270 Final Project -->
+<!-- Chemeka D. Pierce -->
+<!-- Due December 20, 2020 -->
+<!-- https://cdp1.000webhostapp.com/ -->
+
+<!DOCTYPE html>
+<html lang = "en-US">
+	<head>
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+		<title>IT 270 Final Project</title>
+		<link rel = "stylesheet" type = "text/css" href = "index.css">
+		<link rel="stylesheet" type="text/css" href="contact.css">
+	</head>
+	<body>
+		<header class="site-header">
+			<h1>Uncle Nick's Lawncare Service</h1>
+		</header>
+		<div class="nav">
+			<nav>
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="about.html">About</a>
+					</li>
+					<li>
+						<a href="services.html">Services</a>
+					</li>
+					<li>
+						<a href="appointments.html">Appointments</a>
+					</li>
+					<li>
+						<a class="active" href="contact.html">Contact Us</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		
+		<div class="site-title">
+			<h4>Contact Us</h4>
+		</div>
+		
+		<div class="form">
+			<form action="contacts.html" method="post">
+				<div id="cust">
+					<input type="text" placeholder=" Enter Name" name="name" required>
+					<input type="number" placeholder="Phone Number" name="phone" required>
+					<input type="text" placeholder="Enter Email" name="email" required>
+					<textarea placeholder="Message..." name="message" style="height:50px"></textarea>
+				</div>
+				<div class="contact" style="text-align: left;">
+					<p>Contact method:</p>
+						<br>	
+					<p><input type="checkbox"> Phone</p>
+					<br>
+					<p><input type="checkbox"> Email</p>
+					<br>
+				</div>
+				<!-- Selections -->
+				<div id="day">
+					<p>Date:</p>
+					<select name="date">
+						<option>Select Date:</option>
+						<option label="Sunday" name="Sunday" value="Sunday">Sunday</option>
+						<option label="Monday" name="Monday" value="Monday">Monday</option>
+						<option label="Tuesday" name="Tuesday" value="Tuesday">Tuesday</option>
+						<option label="Wednesday" name="Wednesday" value="Wednesday">Wednesday</option>
+						<option label="Thursday" name="Thursday" value="Thursday">Thursday</option>
+						<option label="Friday" name="Friday" value="Friday">Friday</option>
+						<option label="Saturday" name="Saturday" value="Saturday">Saturday</option>
+					</select>
+				</div>
+				<br>
+				<div id="button">
+					<button class="button">Submit</button>
+				</div>
+				<br>
+			</form>
+		</div>
+		<div id="contact">
+			<p>Phone: <a href="tel:+1-999-999-9999">+1 (999) 999-9999</a></p>
+			<br>
+			<p>Email: <a href="mailto:unclenicks@mail.com">unclenicks@mail.com</a></p>
+		</div>
+
+		<footer class="site-footer">
+			<p>&copy Uncle Nick's</p>
+		</footer>
+	
+	</body>
+</html>

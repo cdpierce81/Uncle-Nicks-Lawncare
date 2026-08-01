@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+	background-image: url("image/lawnmowing_header.jpg");
+	height: 100%
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	overflow: hidden;
+}
+
+li {
+	display: inline;
+}
+
+li a.active {
+	padding: 5px;
+	font-weight: bold;
+	background-color: green;
+	color: white;
+	border-radius: 10px;
+}
+
+a {
+	text-decoration: none;	
+}
+
+img {
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 8px;
+}
+
+#image {
+	padding: 50px;
+	width: 100%;
+	text-align: center;
+}
+
+.site-header {
+	padding: 10px;
+	text-align: center;
+	text-shadow: 2px 5px black;
+	color: white;
+	font-size: 20px;
+}
+
+.nav {
+	overflow: hidden;
+	text-align: center;
+	text-shadow: 10px 10px 5px black;
+}
+
+.nav a {
+	text-decoration: none;
+	padding: 10px 10px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+.site-title {
+	padding: 50px;
+	text-align: center;
+	font-variant: small-caps;
+	font-size: 25px;
+	color: green;
+	text-shadow: 2px 2px white;
+}
+
+.site-body {
+	margin: 50px;
+	padding: 0 50px;
+	font-size: 20px;
+}
+
+.gallery {
+	text-align: center;
+}
+
+.image {
+	padding: 5px;
+}
+
+.site-footer {
+	color: white;
+	padding: 10px;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
