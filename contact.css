@@ -32,8 +32,7 @@ input[type=text], [type=number], textarea {
 }
 
 #contact {
-	padding: 10px;
-	border: 1px solid white;
+	padding-bottom: 25px;
 }
 
 #contact a {
